@@ -29,7 +29,6 @@ export default {
   }),
   computed: {
     ...mapState(useTodos, [
-      'todos', 
       'pendingTodos', 
       'completedTodos'
     ])
